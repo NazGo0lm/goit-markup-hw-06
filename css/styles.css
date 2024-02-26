@@ -84,18 +84,23 @@ body{
     letter-spacing: 0.02em;
     color: #2e2f42;
     gap: 40px;
-    position: relative;
+
     
 }
 
 .nav-link{
     color: #2e2f42;
     padding: 24px 0;
+        position: relative;
 }
 
 .nav-link:hover,
 .nav-link:focus{
     color:#404bbf;
+}
+
+.first-nav-link{
+    color: #404bbf;
 }
 
 .first-nav-link::after{

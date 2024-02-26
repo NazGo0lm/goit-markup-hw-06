@@ -466,10 +466,11 @@ body{
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.div-icon-item:hover,
+ .div-icon-item:hover,
 .div-icon-item:focus{
     background-color: #404bbf;
-}
+} 
+
 
 .team-icon{
     fill:#f4f4fd;

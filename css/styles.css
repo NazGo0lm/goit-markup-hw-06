@@ -440,14 +440,12 @@ body{
     margin-left: 120px;
 }
 
- .overlay-list {
-     position: relative;
-     overflow: hidden;
-
- }
-
 .overlay-container{
+    position: relative;
+    overflow: hidden; 
+}
 
+.overlay-item{
     position: absolute;
     background: #4d5ae5;
     top: 0;
@@ -458,9 +456,7 @@ body{
     transition: transform 250ms ease-in-out;
 }
 
-
-
-.overlay-list:hover .overlay-container{
+.overlay-list:hover .overlay-item{
     transform: translateY(0);
 }
 
@@ -471,8 +467,6 @@ body{
     letter-spacing: 0.02em;
     color: #f4f4fd;
     margin: 40px 32px 164px 32px;
-
-    
 }
 
 

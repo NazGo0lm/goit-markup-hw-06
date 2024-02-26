@@ -441,7 +441,7 @@ body{
 }
 
 .team-icon{
-    fill:#4D5AE5;
+    fill:#f4f4fd;
 }
 
 .footer-icons{
@@ -488,7 +488,7 @@ body{
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    padding: 40px 32px 164px 32px;
+    padding: 40px 32px;
 }
 
 
@@ -516,6 +516,6 @@ body{
 }
 
 .footer-icon-item{
-    width: 24px;
-    height: 24px;
+    fill: #f4f4fd;
 }
+

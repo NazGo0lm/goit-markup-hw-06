@@ -275,6 +275,7 @@ body{
     background: #2e2f42;
     padding: 100px 0;
 
+
 }
 
 .below-paragraph{
@@ -286,6 +287,18 @@ body{
     color: #f4f4fd;
     max-width: 264px;
     
+}
+
+.below-paragraph-social-media{
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #FFFFFF;
+        /* max-width: 264px; */
+        margin-bottom: 16px;
+
 }
 
 .logo-title-footer{
@@ -347,6 +360,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    align-items: baseline;
     
 }
 
@@ -433,11 +447,19 @@ body{
 .footer-icons{
     display: flex;
     gap: 16px;
-    margin-top: 16px;
+    /* margin-top: 16px; */
+    justify-content: center;
+    height: 40px;
+
 }
 
 .social-links-footer{
-    margin-left: 120px;
+    /* margin-left: 120px; */
+    min-width: 208px;
+}
+
+.left-footer-section{
+    margin-right: 120px;
 }
 
 .overlay-container{
@@ -471,5 +493,29 @@ body{
 
 
 
+.footer-icon-list{
+        width: 40px;
+        height: 40px;
+/*         background-color: #4D5AE5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%; */
+        /* display: block; */
+}
 
 
+.footer-icon-link{
+    width: 100%; 
+    height: 100%; 
+    background-color: #4D5AE5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.footer-icon-item{
+    width: 24px;
+    height: 24px;
+}

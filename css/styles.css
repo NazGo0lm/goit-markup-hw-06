@@ -54,6 +54,7 @@ body{
 
 .navigation-header{
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
    
 }
 
@@ -92,6 +93,7 @@ body{
     color: #2e2f42;
     padding: 24px 0;
         position: relative;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-link:hover,
@@ -109,7 +111,7 @@ body{
     width: 100%;
     height: 4px;
     background-color: #404BBF;
-    right: 0;
+    left: 0;
     bottom:-1px;
     border-radius: 2px;
 }
@@ -164,7 +166,7 @@ body{
 .contact-ref{
     color: #434455;
     padding: 24px 0;
-
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
    
 }
@@ -223,6 +225,7 @@ body{
 
     margin-left: auto;
     margin-right: auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .primary-btn:hover,
@@ -239,7 +242,15 @@ body{
     border-radius: 0 0 4px 4px;
     padding: 0px 0px 32px 0px;
     gap: 24px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    
 
+}
+
+
+.third-section-list:hover .div-icon-item,
+.third-section-list:focus .div-icon-item{
+    background-color: #404BBF;
 }
 
 .third-title{
@@ -457,6 +468,7 @@ body{
     align-items: center;
     border-radius: 50%;
     /* display: block; */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .team-icon{
@@ -479,6 +491,16 @@ body{
 
 .left-footer-section{
     margin-right: 120px;
+}
+
+.overlay-list{
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.overlay-list:hover,
+.overlay-list:hover{
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    
 }
 
 .overlay-container{
@@ -532,9 +554,14 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    transition: background-color 250ms ease-in-out;
 }
 
 .footer-icon-item{
     fill: #f4f4fd;
 }
 
+.footer-icon-link:hover,
+.footer-icon-link:focus{
+    background-color:#31D0AA;
+}

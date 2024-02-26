@@ -440,16 +440,27 @@ body{
     margin-left: 120px;
 }
 
+ .overlay-list {
+     position: relative;
+     overflow: hidden;
+
+ }
+
 .overlay-container{
-    position: relative;
-    overflow: hidden; 
+
+    position: absolute;
+    background: #4d5ae5;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms ease-in-out;
 }
 
-/* .overlay-item{
 
-} */
 
-.overlay-list:hover .overlay-item{
+.overlay-list:hover .overlay-container{
     transform: translateY(0);
 }
 
@@ -461,14 +472,7 @@ body{
     color: #f4f4fd;
     margin: 40px 32px 164px 32px;
 
-    position: absolute;
-    background: #4d5ae5;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transform: translateY(100%);
-    transition: transform 250ms ease-in-out;
+    
 }
 
 

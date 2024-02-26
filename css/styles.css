@@ -248,8 +248,11 @@ body{
 }
 
 
-.third-section-list:hover,
-.third-section-list:focus .div-icon-item{
+.third-section-list:hover .div-icon-item{
+    background-color: #404BBF;
+}
+
+.third-section-list:focus .div-icon-item {
     background-color: #404BBF;
 }
 

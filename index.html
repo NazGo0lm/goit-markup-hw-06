@@ -477,6 +477,46 @@
 
 
 
+    <div class="backdrop is-open">
+        <div class="modal">
+            <button class="backdrop-close-button" type="button">
+                <svg class="icon-close-button" width="8" height="8" aria-label="close-icon">
+                    <use href="./images/icons.svg#icon-close-backdrop"></use>
+                </svg>
+            </button>
+    
+            <p class="backdrop-paragraph">
+                Leave your contacts and we will call you back
+            </p>
+            <div class="container-form-field">
+                <label for="user-name" class="form-label-item">Name</label>
+                <input type="text" class="input-item" name="user-name" id="user-name" pattern="[a-ZA-Zа-яА-ЯіІїЇ]" required>
+            </div>
+            <div class="container-form-field">
+                <label for="user-phone" class="form-label-item">Phone</label>
+                <input id="user-phone" type="tel" class="input-item" pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                    name="user-phone" required>
+            </div>
+            <div class="container-form-field">
+                <label for="user-email" class="form-label-item">Email</label>
+                <input id="user-email" type="email" class="input-item" name="user-name" required>
+            </div>
+            <div class="container-comment">
+                <label for="user-comment" class="form-label-item">Comment</label>
+                <textarea id="user-comment" class="input-item" name="user-comment"></textarea>
+    
+            </div>
+            <div class="container-policy-field ">
+                <input type="checkbox" class="input-checkbox">
+                <label for="" class=" form-label-item-text">
+                    I accept the terms and conditions of the
+                    <a href="">Privacy Policy</a>
+                </label>
+            </div>
+    
+            <button class="backdrop-submit-button" type="button">Send</button>
+        </div>
+    </div>
 
 
 

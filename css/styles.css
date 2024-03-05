@@ -911,10 +911,10 @@ body{
 }
 
 
-/*form-footer*/
+/*                 form-footer                */
 
-.form-footer {
-    margin-left: 80px;
+.container-form-footer {
+    margin-left: 56px;
     
 }
 
@@ -923,7 +923,8 @@ body{
 }
 
 .footer-form {
-
+    display: flex;
+    gap: 24px;
 }
 
 .footer-form-label-item {
@@ -948,9 +949,13 @@ body{
 }
 
 .footer-submit-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
     border-radius: 4px;
     
-    width: 165px;
+    min-width: 165px;
     height: 40px;
     background: #4d5ae5;
     fill: #FFFFFF;
@@ -962,11 +967,14 @@ body{
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
+    cursor: pointer;
 
     padding: 8px 24px;
 }
 
-
+.footer-svg{
+    margin-left: 16px;
+}
 
 
 

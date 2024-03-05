@@ -928,20 +928,19 @@ body{
 }
 
 .footer-form-label-item {
-
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #fff;
+    
 
 }
 
 .footer-input-item {
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 200%;
-    letter-spacing: 0.04em;
-    color: #fff;
-    padding: 8px 16px;
+    padding-left: 16px;
     background-color: transparent;
-
-    border: 1px solid #fff;
+    border: 1px solid #ffffff;
     border-radius: 4px;
     width: 264px;
     height: 40px;

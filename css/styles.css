@@ -930,9 +930,8 @@ body{
 .footer-form-label-item {
     font-weight: 400;
     font-size: 12px;
-    line-height: 2;
-    letter-spacing: 0.04em;
-    color: #fff;
+    
+
     
 
 }
@@ -945,6 +944,13 @@ body{
     width: 264px;
     height: 40px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    line-height: 2;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.footer-input-item::placeholder{
+    color:#ffffff;
 }
 
 .footer-submit-button {
@@ -967,6 +973,7 @@ body{
     text-align: center;
     color: #fff;
     cursor: pointer;
+    border: none;
 
     padding: 8px 24px;
 }

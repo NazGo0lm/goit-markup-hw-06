@@ -994,9 +994,15 @@ body{
         max-width: 320px;
     }
     
-    .nav-section .nav-list {
+    .nav-list {
         display: none;
         /* justify-content: space-between; */
+    }
+
+    .nav-section{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
     }
 
     .contact-info {
@@ -1011,7 +1017,7 @@ body{
     .logo-title {
         padding: 16px;
         width: 115px;
-        margin-right: 149px;
+        margin-right: 0; 
     }
 
     .first-nav-link {}
@@ -1022,6 +1028,8 @@ body{
         padding: 16px;
         display: flex;
         align-items: center;
+        margin-left: 136px;
+        margin-right: 16px;
 
     }
 
@@ -1132,7 +1140,22 @@ body{
         margin-bottom:16px;
     }
 
-    .footer-input-item{
+    .left-footer-section{
+        display: block;
+        width: 100%;
+
+    }
+
+    .logo-title-footer{
+        display: block;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .footer-form-label-item .footer-input-item{
+        display: block;
         margin-bottom: 16px;
         margin-left: auto;
         margin-right: auto;
@@ -1145,6 +1168,8 @@ body{
     }
 
 }
+
+
 
 
 

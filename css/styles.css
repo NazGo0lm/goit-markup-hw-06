@@ -993,7 +993,7 @@ body{
 
 @media screen and (min-width:320px) and (max-width:767px) {
     .container {
-        max-width: 320px;
+        max-width: 100%;
     }
     
     .nav-list {
@@ -1003,7 +1003,7 @@ body{
 
     .nav-section{
         display: flex;
-        width: 100%;
+        
         justify-content: space-between;
     }
 
@@ -1030,8 +1030,8 @@ body{
         padding: 16px;
         display: flex;
         align-items: center;
-        margin-left: 136px;
-        margin-right: 16px;
+        /* margin-left: 136px; */
+        /* margin-right: 16px; */
 
     }
 
@@ -1042,7 +1042,7 @@ body{
     }
 
     .intro-section {
-        max-width: 320px;
+        max-width: 100%;
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),

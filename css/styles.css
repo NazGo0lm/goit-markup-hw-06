@@ -1,5 +1,7 @@
 .nav-hamburger-list{
     display: none;
+    /* visibility: hidden;
+    opacity: 0; */
 }
 
 .hamburger-menu-backdrop{
@@ -10,7 +12,7 @@
     width: 100%;
     height: 100%;
     background: rgba(46, 47, 66, 0.4);
-        
+    visibility: hidden;
     opacity: 0;
     transition: opacity 250ms linear, visibility 250ms linear;
 }
@@ -148,6 +150,7 @@ body{
 
 .navigation-ul{
     display: flex;
+
     gap: 40px;
 }
 
@@ -596,6 +599,7 @@ body{
     width: 100%;
     height: 100%;
     background: rgba(46, 47, 66, 0.4);
+    visibility: hidden;
 
     opacity:0;
     transition: opacity 250ms linear, visibility 250ms linear;
@@ -1014,13 +1018,32 @@ body{
     margin-left: 16px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*  MOBILE RESPONSIVE    */
 
 @media screen and (min-width:320px) and (max-width:767px) {
-    .container {
-        max-width: 100%;
+    .container-flex{
+        display: block;/*як це можливо?*/
     }
-    
+    .container {
+         max-width: 100%; 
+         /* display: block; */
+    }
+
+
     .nav-list {
         display: none;
         /* justify-content: space-between; */
@@ -1028,6 +1051,7 @@ body{
 
     .nav-section{
         display: flex;
+        margin-right: 0;
         
         justify-content: space-between;
     }
@@ -1038,12 +1062,17 @@ body{
 
     .navigation-ul {
 
-        margin-right: auto;
+        margin-right: 0;
+        
+        width: auto; 
+        display: flex;
+        justify-content: space-around;
+        /* margin-right: auto; */
         /* align-items: baseline; */
     }
 
     .logo-title {
-        padding: 16px;
+        padding:  16px 0;
         width: 115px;
         margin-right: 0; 
         
@@ -1054,7 +1083,7 @@ body{
     .nav-hamburger-list {
         /*         width: 24px;
         height: 24px; */
-        padding: 16px;
+        padding: 16px 0;
         display: flex;
         align-items: center;
         /* margin-left: 136px; */
@@ -1362,10 +1391,50 @@ body{
 
 @media screen and (min-width:768px) and (max-width:1023px){
     /*tablet screen responsiveness*/
-
+    .container-flex{
+        justify-content: space-around;
+    }
 
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

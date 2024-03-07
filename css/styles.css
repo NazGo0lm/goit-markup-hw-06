@@ -1,3 +1,7 @@
+.nav-hamburger-list{
+    display: none;
+}
+
 h1,h2,h3,h4,h5,h6,p{
     margin-top:0;
     margin-bottom:0;
@@ -48,6 +52,7 @@ body{
     color: #434455;
     background: #FFFFFF;
 }
+
 
 
 /*NAVIGATION SECTION*/
@@ -982,10 +987,164 @@ body{
     margin-left: 16px;
 }
 
+/*  MOBILE RESPONSIVE    */
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .container {
+        max-width: 320px;
+    }
+    
+    .nav-section .nav-list {
+        display: none;
+        /* justify-content: space-between; */
+    }
+
+    .contact-info {
+        display: none;
+    }
+
+    .navigation-ul {
+
+        /* align-items: baseline; */
+    }
+
+    .logo-title {
+        padding: 16px;
+        width: 115px;
+        margin-right: 149px;
+    }
+
+    .first-nav-link {}
+
+    .nav-hamburger-list {
+        /*         width: 24px;
+        height: 24px; */
+        padding: 16px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .svg-icon-item {
+        fill: #2F2F37;
 
 
+    }
+
+    .intro-section {
+        max-width: 320px;
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office.jpg/2880/1200);
+
+    }
+
+     
+
+    /* .container-intro{
+
+    } */
+
+    .main-heading {}
+
+    .primary-btn {}
 
 
+    /*strategy*/
+
+    .strategy-ul{
+        display: block;
+    }
+
+    .strategy-div-svg{
+        display: none;
+    }
+
+    .strategy-li-element{
+        width: 100%;
+        margin-bottom: 72px;
+    }
+
+    .third-title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        text-align: center;
+        color: #2e2f42;
+    }
+
+    .sec-parag-text{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+
+    /*TEAM SECTION*/
+    .third-section-ul{
+        display: block;
+    }
+    .third-section-list{
+        width: 100%;
+        margin-bottom: 72px;
+    }
+
+    /*OUR PORTFOLIO SECTION*/
+    .portfolio-ul-section{
+        display: block;
+    }
+    .portfolio-el{
+        width: 100%;
+        margin-bottom: 48px;
+    }
+
+    /*footer*/
+    .container-footer{
+        display:block ;
+    }
+
+    .left-footer-section{
+        margin-bottom: 72px;
+    }
+    .social-links-footer{
+        margin-bottom: 72px;
+    }
+    
+    .below-paragraph-social-media{
+        text-align: center;
+    }
+
+    .container-form-footer{
+        /* display: block; */
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+    .footer-form{
+        display: block;
+        
+    }
+
+    .below-paragraph-social-media{
+        margin-bottom:16px;
+    }
+
+    .footer-input-item{
+        margin-bottom: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-submit-button{
+        margin-top: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
 
 
 

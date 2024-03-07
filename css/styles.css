@@ -1046,7 +1046,7 @@ body{
         background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
-            url(../images/people-office.jpg/2880/1200);
+            url(../images/people-office.jpg );
 
     }
 
@@ -1172,7 +1172,22 @@ body{
         margin-right: auto;
     }
 
-    /**/
+    /*backdrop          is-open     */
+
+
+    .backdrop{  
+        /* max-width: 320px; */
+    }
+
+    .modal{
+        max-width: 288px;
+    }
+
+    .backdrop-submit-button{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
 }
 

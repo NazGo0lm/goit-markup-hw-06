@@ -1043,6 +1043,10 @@ body{
          /* display: block; */
     }
 
+    .nav-adress{
+        display: none;
+    }
+
 
     .nav-list {
         display: none;
@@ -1056,9 +1060,7 @@ body{
         justify-content: space-between;
     }
 
-    .contact-info {
-        display: none;
-    }
+     
 
     .navigation-ul {
 
@@ -1078,7 +1080,7 @@ body{
         
     }
 
-    .first-nav-link {}
+    /* .first-nav-link {} */
 
     .nav-hamburger-list {
         /*         width: 24px;
@@ -1389,12 +1391,214 @@ body{
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (min-width:768px) and (max-width:1023px){
     /*tablet screen responsiveness*/
     .container-flex{
         justify-content: space-around;
     }
 
+    .navigation-header{
+        width: 100%;
+    }
+    .container {
+         max-width: 100%; 
+         /* display: block; */
+         gap: 120px;
+    }
+    .nav-section{
+        justify-content: space-around;
+        margin-right: 0;
+        gap: 120px;
+        /* gap: 120px; */
+    }
+
+    .logo-title{
+        margin-right: 0;
+    }
+
+    .contact-list{
+        width: auto;    
+    } 
+
+
+
+    .contact-ref{
+        padding: 0;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 117%;
+        letter-spacing: 0.04em;
+        color: #434455;
+        
+    }
+
+    .contact-ref-tablet{
+        margin-bottom: 12px;
+    }
+
+    .nav-adress{
+        display: block;
+        margin: 12px 0;
+    }
+
+    .intro-section {
+        max-width: 100%;
+        background-image: linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office.jpg );
+            
+ 
+    }
+
+    /*strategy-section*/
+
+    .strategy-ul{
+        display: flex;
+        width: 100%;
+        row-gap: 72px;
+        column-gap: 24px;
+        flex-wrap: wrap;
+        }
+    .strategy-div-svg{
+        display: none;
+    }
+
+    .strategy-li-element{
+        width: calc((100% - 24px) / 2);
+        
+    }
+
+    .third-title{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 111%;
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        color: #2e2f42;
+        text-align: start;
+    }
+
+    .sec-parag-text{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        color: #434455;
+    }
+    
+
+    /*team section*/
+    .third-section-ul{
+        display: flex;
+        width: 100%;
+        row-gap: 72px;
+        column-gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .third-section-list{
+        width: calc((100% - 24px)/2);
+    }
+        
+    .third-title{
+        text-align: center;
+    }
+
+
+    /*team section*/
+    .portfolio-ul-section{
+        display: flex;
+        
+        row-gap: 72px;
+        column-gap: 24px;
+        flex-wrap: wrap;
+    }
+
+    .portfolio-el{
+        width: calc((100% - 24px)/2);
+    }
+
+    .third-title.tablet-styling{
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 120%;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+    }
+
+    .sec-parag-text{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #434455;
+    }
+
+
+
+    /*footer*/
+    .container-footer{
+        flex-wrap: wrap;
+    }
+
+    .below-paragraph{
+        /* text-align: end; */
+    }
+
+    .footer-icons{
+        justify-content: flex-start;
+    }
+
+    .container-footer{
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 24px;
+        row-gap: 72px;
+        align-items: center;
+        
+    }
+
+    .left-footer-section{
+        display: block;
+        margin-right: 0;
+        padding-left: 98px;
+        /* width: auto; */
+        width: calc((100% - 24px)/2);
+    }
+
+    .social-links-footer{
+        width: calc((100% - 24px)/2);
+    }
+
+   
+
+
+    /* .tablet-flex{
+        
+    } */
+
+    .container-form-footer{
+        /* width: 75%; */
+        
+        margin-left:0; 
+        padding-left: 98px;
+        
+        /* margin-right: auto;
+        margin-left: auto; */
+    }
 
 }
 

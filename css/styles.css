@@ -1437,6 +1437,8 @@ body{
         justify-content: space-around;
     }
 
+    
+
     .navigation-header{
         width: 100%;
     }
@@ -1538,10 +1540,12 @@ body{
     /*team section*/
     .third-section-ul{
         display: flex;
-        width: 100%;
+        width: 552px;
         row-gap: 72px;
         column-gap: 24px;
         flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .third-section-list{
@@ -1556,10 +1560,12 @@ body{
     /*team section*/
     .portfolio-ul-section{
         display: flex;
-        
+        width: 736px;
         row-gap: 72px;
         column-gap: 24px;
         flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .portfolio-el{

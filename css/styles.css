@@ -209,11 +209,14 @@ body{
         to bottom,
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
-    ), url(../images/people-office.jpg);
+    ), url("../images/people-office.jpg");
     padding-top: 188px;
     padding-bottom: 188px;
      
 }
+
+
+
 
 .main-heading{
     font-family: "Roboto", sans-serif;
@@ -1431,7 +1434,7 @@ body{
 
 
 
-@media screen and (min-width:768px) and (max-width:1167px){
+@media screen and (min-width:768px) and (max-width:1023px){
     /*tablet screen responsiveness*/
     .container-flex{
         justify-content: space-around;
@@ -1504,7 +1507,9 @@ body{
 
     .strategy-ul{
         display: flex;
-        width: 100%;
+        width: 736px;
+        margin-left: auto;
+        margin-right: auto;
         row-gap: 72px;
         column-gap: 24px;
         flex-wrap: wrap;
@@ -1534,6 +1539,7 @@ body{
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
+        text-align: start;
     }
     
 
@@ -1585,8 +1591,9 @@ body{
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
-        text-align: center;
+        /* text-align: center; */
         color: #434455;
+        text-align: start;
     }
 
 
@@ -1644,7 +1651,85 @@ body{
 
 }
 
+@media only screen and (min-resolution:192dpi) and (min-width:1024px) {
+    .intro-section {
+        background-image:linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url("../images/people-office@2x.jpg");
+    }
+}
 
+@media only screen and (min-resolution:288dpi) and (min-width:1024px) {
+    .intro-section {
+        background-image:linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url("../images/people-office@3x.jpg");
+    }
+}
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .intro-section {
+        background-image:linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url("../images/tablet-office.jpg");
+    }
+}
+
+@media only screen and (min-resolution:98dpi) and (min-width:768px) and (max-width:1023px) {
+    .intro-section {
+        background-image:linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url("../images/tablet-office.jpg");
+    }
+}
+
+@media only screen and (min-resolution:192dpi) and (min-width:768px) and (max-width:1023px) {
+    .intro-section {
+        background-image:linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url("../images/tablet-office@2x.jpg");
+    }
+}
+
+@media only screen and (min-resolution:288dpi) and (min-width:768px) and (max-width:1023px) {
+    .intro-section {
+        background-image:linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url("../images/tablet-office@3x.jpg");
+    }
+}
+
+@media only screen and (min-width:320px) and (max-width:767px) {
+    .intro-section {
+        background-image:linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url("../images/phone-office.jpg");
+    }
+}
+
+@media only screen and (min-resolution:98dpi) and (min-width:320px) and (max-width:767px) {
+    .intro-section {
+        background-image:linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url("../images/phone-office.jpg");
+    }
+}
+
+@media only screen and (min-resolution:192dpi) and (min-width:320px) and (max-width:767px) {
+    .intro-section {
+        background-image:linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url("../images/phone-office@2x.jpg");
+    }
+}
+
+@media only screen and (min-resolution:288dpi) and (min-width:320px) and (max-width:767px) {
+    .intro-section {
+        background-image:linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)), url("../images/phone-office@3x.jpg");
+    }
+}
 
 
 
